@@ -1,0 +1,619 @@
+{
+  "network": "StudioNet",
+  "source_commit": "ac928d31b3114ee74593c74ffe318526b536124f",
+  "transactions": [
+    {
+      "step": "deploy",
+      "signer": "0x496C77725803504388c2eCBB98b80c99DA344383",
+      "nonce": "0x0",
+      "functionName": "deploy",
+      "args": [],
+      "fee_wei": "78852000002588",
+      "hash": "0x9f53e59270cedaf61cb88b56ff17fd11f87536bad735be1f61857dfba7909a99",
+      "receipt": {
+        "hash": "0x9f53e59270cedaf61cb88b56ff17fd11f87536bad735be1f61857dfba7909a99",
+        "address": "0x1da327b548001DE808da10eb1a5CC209C3C473FF",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 4,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "adopted",
+      "signer": "0x496C77725803504388c2eCBB98b80c99DA344383",
+      "nonce": "0x1",
+      "functionName": "register_map",
+      "args": [
+        "ehsandto/parcel-overlay/ac928d31b3114ee74593c74ffe318526b536124f/fixtures/adopted.json",
+        "1312b023f0bef6901468032cb12b28d7bb827d1c063eb5d29fe757b3c4dbc874"
+      ],
+      "fee_wei": "78852000002588",
+      "hash": "0x2eb4c75632393511bf1bc5197b1494662e95af9fa14a3a52381d9c498093feb2",
+      "receipt": {
+        "hash": "0x2eb4c75632393511bf1bc5197b1494662e95af9fa14a3a52381d9c498093feb2",
+        "address": "0x1da327b548001DE808da10eb1a5CC209C3C473FF",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "withdrawn",
+      "signer": "0x496C77725803504388c2eCBB98b80c99DA344383",
+      "nonce": "0x2",
+      "functionName": "register_map",
+      "args": [
+        "ehsandto/parcel-overlay/ac928d31b3114ee74593c74ffe318526b536124f/fixtures/withdrawn.json",
+        "b3d1a5de99ee549dbc1756e63e49f5fe0bccf2e695a1edd13525486a9a745f2a"
+      ],
+      "fee_wei": "78852000002588",
+      "hash": "0x48ce25f8df124cb452a959bb975574cdda25917e7f57952160dd96b234e492a3",
+      "receipt": {
+        "hash": "0x48ce25f8df124cb452a959bb975574cdda25917e7f57952160dd96b234e492a3",
+        "address": "0x1da327b548001DE808da10eb1a5CC209C3C473FF",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "maps": {
+    "adopted": {
+      "evidence": {
+        "document": {
+          "extent": [
+            0,
+            0,
+            10,
+            8
+          ],
+          "layers": [
+            {
+              "box": [
+                0,
+                0,
+                8,
+                6
+              ],
+              "instruction": "The operative base order closes this rectangle to all public access."
+            },
+            {
+              "box": [
+                2,
+                1,
+                6,
+                4
+              ],
+              "instruction": "The gate amendment was adopted. This rectangle is now explicitly open to the public."
+            },
+            {
+              "box": [
+                4,
+                3,
+                10,
+                8
+              ],
+              "instruction": "The active buffer amendment permits public access to this rectangle only with a guide."
+            }
+          ]
+        },
+        "effects": [
+          "CLOSED",
+          "OPEN",
+          "CONDITIONAL"
+        ],
+        "sha256": "1312b023f0bef6901468032cb12b28d7bb827d1c063eb5d29fe757b3c4dbc874",
+        "text": "{\n  \"extent\": [0, 0, 10, 8],\n  \"layers\": [\n    {\"box\": [0, 0, 8, 6], \"instruction\": \"The operative base order closes this rectangle to all public access.\"},\n    {\"box\": [2, 1, 6, 4], \"instruction\": \"The gate amendment was adopted. This rectangle is now explicitly open to the public.\"},\n    {\"box\": [4, 3, 10, 8], \"instruction\": \"The active buffer amendment permits public access to this rectangle only with a guide.\"}\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/ehsandto/parcel-overlay/ac928d31b3114ee74593c74ffe318526b536124f/fixtures/adopted.json"
+      },
+      "tiles": [
+        [
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          2,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          2,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          2,
+          8,
+          1
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          4,
+          3,
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          4,
+          1
+        ],
+        [
+          2,
+          4,
+          4,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4,
+          8,
+          1
+        ],
+        [
+          4,
+          0,
+          6,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          6,
+          3,
+          1
+        ],
+        [
+          4,
+          3,
+          6,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          6,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          6,
+          8,
+          4
+        ],
+        [
+          6,
+          0,
+          8,
+          1,
+          2
+        ],
+        [
+          6,
+          1,
+          8,
+          3,
+          2
+        ],
+        [
+          6,
+          3,
+          8,
+          4,
+          4
+        ],
+        [
+          6,
+          4,
+          8,
+          6,
+          4
+        ],
+        [
+          6,
+          6,
+          8,
+          8,
+          4
+        ],
+        [
+          8,
+          0,
+          10,
+          1,
+          1
+        ],
+        [
+          8,
+          1,
+          10,
+          3,
+          1
+        ],
+        [
+          8,
+          3,
+          10,
+          4,
+          4
+        ],
+        [
+          8,
+          4,
+          10,
+          6,
+          4
+        ],
+        [
+          8,
+          6,
+          10,
+          8,
+          4
+        ]
+      ],
+      "measurements": {
+        "full": {
+          "areas": {
+            "CLOSED": {
+              "certain": 26,
+              "possible": 26
+            },
+            "CONDITIONAL": {
+              "certain": 30,
+              "possible": 30
+            },
+            "OPEN": {
+              "certain": 24,
+              "possible": 24
+            }
+          },
+          "inside": 80,
+          "outside": 0,
+          "unresolved": 0
+        },
+        "gate": {
+          "areas": {
+            "CLOSED": {
+              "certain": 0,
+              "possible": 0
+            },
+            "CONDITIONAL": {
+              "certain": 2,
+              "possible": 2
+            },
+            "OPEN": {
+              "certain": 10,
+              "possible": 10
+            }
+          },
+          "inside": 12,
+          "outside": 0,
+          "unresolved": 0
+        }
+      }
+    },
+    "withdrawn": {
+      "evidence": {
+        "document": {
+          "extent": [
+            0,
+            0,
+            10,
+            8
+          ],
+          "layers": [
+            {
+              "box": [
+                0,
+                0,
+                8,
+                6
+              ],
+              "instruction": "The operative base order closes this rectangle to all public access."
+            },
+            {
+              "box": [
+                2,
+                1,
+                6,
+                4
+              ],
+              "instruction": "The proposed gate amendment would have opened this rectangle to the public. It was withdrawn before adoption and has no operative effect."
+            },
+            {
+              "box": [
+                4,
+                3,
+                10,
+                8
+              ],
+              "instruction": "The active buffer amendment permits public access to this rectangle only with a guide."
+            }
+          ]
+        },
+        "effects": [
+          "CLOSED",
+          "IGNORE",
+          "CONDITIONAL"
+        ],
+        "sha256": "b3d1a5de99ee549dbc1756e63e49f5fe0bccf2e695a1edd13525486a9a745f2a",
+        "text": "{\n  \"extent\": [0, 0, 10, 8],\n  \"layers\": [\n    {\"box\": [0, 0, 8, 6], \"instruction\": \"The operative base order closes this rectangle to all public access.\"},\n    {\"box\": [2, 1, 6, 4], \"instruction\": \"The proposed gate amendment would have opened this rectangle to the public. It was withdrawn before adoption and has no operative effect.\"},\n    {\"box\": [4, 3, 10, 8], \"instruction\": \"The active buffer amendment permits public access to this rectangle only with a guide.\"}\n  ]\n}\n",
+        "url": "https://raw.githubusercontent.com/ehsandto/parcel-overlay/ac928d31b3114ee74593c74ffe318526b536124f/fixtures/withdrawn.json"
+      },
+      "tiles": [
+        [
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          2,
+          4,
+          2
+        ],
+        [
+          0,
+          4,
+          2,
+          6,
+          2
+        ],
+        [
+          0,
+          6,
+          2,
+          8,
+          1
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          2
+        ],
+        [
+          2,
+          1,
+          4,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          4,
+          4,
+          2
+        ],
+        [
+          2,
+          4,
+          4,
+          6,
+          2
+        ],
+        [
+          2,
+          6,
+          4,
+          8,
+          1
+        ],
+        [
+          4,
+          0,
+          6,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          6,
+          3,
+          2
+        ],
+        [
+          4,
+          3,
+          6,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          6,
+          6,
+          4
+        ],
+        [
+          4,
+          6,
+          6,
+          8,
+          4
+        ],
+        [
+          6,
+          0,
+          8,
+          1,
+          2
+        ],
+        [
+          6,
+          1,
+          8,
+          3,
+          2
+        ],
+        [
+          6,
+          3,
+          8,
+          4,
+          4
+        ],
+        [
+          6,
+          4,
+          8,
+          6,
+          4
+        ],
+        [
+          6,
+          6,
+          8,
+          8,
+          4
+        ],
+        [
+          8,
+          0,
+          10,
+          1,
+          1
+        ],
+        [
+          8,
+          1,
+          10,
+          3,
+          1
+        ],
+        [
+          8,
+          3,
+          10,
+          4,
+          4
+        ],
+        [
+          8,
+          4,
+          10,
+          6,
+          4
+        ],
+        [
+          8,
+          6,
+          10,
+          8,
+          4
+        ]
+      ],
+      "measurements": {
+        "full": {
+          "areas": {
+            "CLOSED": {
+              "certain": 36,
+              "possible": 36
+            },
+            "CONDITIONAL": {
+              "certain": 30,
+              "possible": 30
+            },
+            "OPEN": {
+              "certain": 14,
+              "possible": 14
+            }
+          },
+          "inside": 80,
+          "outside": 0,
+          "unresolved": 0
+        },
+        "gate": {
+          "areas": {
+            "CLOSED": {
+              "certain": 10,
+              "possible": 10
+            },
+            "CONDITIONAL": {
+              "certain": 2,
+              "possible": 2
+            },
+            "OPEN": {
+              "certain": 0,
+              "possible": 0
+            }
+          },
+          "inside": 12,
+          "outside": 0,
+          "unresolved": 0
+        }
+      }
+    }
+  },
+  "test_faucets": [
+    {
+      "address": "0x496C77725803504388c2eCBB98b80c99DA344383",
+      "requested_wei": "10000000000000000"
+    }
+  ],
+  "address": "0x1da327b548001DE808da10eb1a5CC209C3C473FF",
+  "source": {
+    "address": "0x1da327b548001DE808da10eb1a5CC209C3C473FF",
+    "source_match": true,
+    "sha256": "4112097fd416ec5b0103d8f08d28386052ac8bda92023c04dd191e21d3046f0b"
+  },
+  "verified": true
+}

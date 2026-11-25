@@ -17,3 +17,5 @@ The fictional demo keeps all geometry fixed. Adopting the gate amendment makes 1
 ## Development
 
 Install `requirements-dev.txt`, run `python -m pytest tests -q`, and run `genvm-lint check contracts/ParcelOverlay.py`.
+
+[Submission](SUBMISSION.md) · [StudioNet proofs](LIVE_PROOFS.md)
