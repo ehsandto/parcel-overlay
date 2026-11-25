@@ -1,0 +1,8 @@
+{
+  "extent": [0, 0, 10, 8],
+  "layers": [
+    {"box": [0, 0, 8, 6], "instruction": "The operative base order closes this rectangle to all public access."},
+    {"box": [2, 1, 6, 4], "instruction": "The proposed gate amendment would have opened this rectangle to the public. It was withdrawn before adoption and has no operative effect."},
+    {"box": [4, 3, 10, 8], "instruction": "The active buffer amendment permits public access to this rectangle only with a guide."}
+  ]
+}
